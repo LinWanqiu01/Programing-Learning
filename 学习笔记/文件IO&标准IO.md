@@ -1,10 +1,10 @@
 > I/O 是计算机中的输入/输出操作（Input/Output），用于在计算机系统和外部设备之间进行数据交换。
 
-![](/imgs/unbuffer IO.jpg)
+![](imgs/unbuffer IO.jpg)
 
 ​																		                                             文件I/O（如read，系统调用）
 
-![](/imgs/buffer IO.jpg)
+![](imgs/buffer IO.jpg)
 
 ​                                                                                                                标准IO（如fread，库函数）
 

@@ -51,3 +51,13 @@ git push -u origin master
 
 完成以上步骤后，Git会将文件上传到GitHub仓库中。可以在GitHub上查看仓库，确认文件是否成功上传。
 
+
+
+
+
+如果想**重新关联远程仓库**，可以使用以下命令将现有的远程仓库移除，然后再添加新的远程仓库：
+
+```shell
+git remote remove origin
+git remote add origin https://github.com/wanqiu1900/Programing-Learning.git
+```
